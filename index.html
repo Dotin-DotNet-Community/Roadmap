@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>.NET Community Roadmap</title>
+    <meta
+      name="description"
+      content="Interactive roadmap of weekly .NET community articles, quizzes, and challenge packs."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <div class="eyebrow">.NET Community</div>
+        <h1>Learning Roadmap</h1>
+        <p>
+          Weekly learning packs, engineering topics, quizzes, and hands-on community
+          challenges.
+        </p>
+      </header>
+
+      <main class="roadmap-layout">
+        <section class="roadmap-panel">
+          <div class="road-header">
+            <span class="legend-dot"></span>
+            <span>Click a milestone to learn more</span>
+          </div>
+          <div id="roadmap" class="roadmap" aria-live="polite"></div>
+        </section>
+
+        <aside id="details" class="details-panel" aria-live="polite">
+          <div class="placeholder">
+            Select a roadmap milestone to view its learning resources and community links.
+          </div>
+        </aside>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
